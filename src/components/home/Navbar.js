@@ -1,20 +1,27 @@
+import Button from './Button'
+
 function Navbar() {
   return (
-    <div className='h-1/6 flex justify-around'>
+    <div className='container h-1/5 flex justify-between text-white font-semibold'>
       {/* Logo & Brand Name */}
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center hover:cursor-pointer'>
         <img src='./logo.png' alt='brand logo' className='h-12 w-12' />
-        <h3 className='text-xl text-white font-bold pl-2'>SCRUMVERSE</h3>
-      </div>
-      <div className='flex justify-center items-center'>
-        <button className='uppercase'>Home</button>
-        <button className='uppercase'>About</button>
-        <button className='uppercase'>Courses</button>
-        <button className='uppercase'>Blogs</button>
+        <h3 className='text-lg  pl-2 uppercase'>Scrumverse</h3>
       </div>
 
       {/* Navigation Bar */}
+      <div className='flex justify-center items-center'>
+        <Button>Home</Button>
+        <Button>About</Button>
+        <Button>Courses</Button>
+        <Button>Blogs</Button>
+      </div>
+
       {/* Sign In */}
+      <div className='flex justify-center items-center'>
+        <Button>Login</Button>
+        <Button className='border-white important'>Sign Up</Button>
+      </div>
     </div>
   )
 }
