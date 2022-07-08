@@ -2,7 +2,7 @@ import Button from './Button'
 
 function Navbar() {
   return (
-    <div className='container h-1/5 flex justify-between text-white font-semibold'>
+    <div className='container min-h-1/5 flex flex-1 justify-between text-white font-semibold'>
       {/* Logo & Brand Name */}
       <div className='flex justify-center items-center hover:cursor-pointer'>
         <img src='./logo.png' alt='brand logo' className='h-12 w-12' />
@@ -10,7 +10,7 @@ function Navbar() {
       </div>
 
       {/* Navigation Bar */}
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center gap-8'>
         <Button>Home</Button>
         <Button>About</Button>
         <Button>Courses</Button>
@@ -18,9 +18,9 @@ function Navbar() {
       </div>
 
       {/* Sign In */}
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center gap-8'>
         <Button>Login</Button>
-        <Button className='border-white important'>Sign Up</Button>
+        <Button className='border-inherit border-white'>Sign Up</Button>
       </div>
     </div>
   )
