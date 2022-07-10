@@ -6,7 +6,7 @@ function MainSection() {
   return (
     <div className='min-h-screen flex flex-col main-gradient'>
       <Navbar />
-      <div className='container flex flex-1'>
+      <div className='container flex flex-1 relative'>
         <Advertisement />
         <PhotoGrid />
       </div>

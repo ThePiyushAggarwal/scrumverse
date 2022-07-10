@@ -6,7 +6,7 @@ function Navbar() {
       {/* Logo & Brand Name */}
       <div className='flex justify-center items-center hover:cursor-pointer'>
         <img src='./logo.png' alt='brand logo' className='h-12 w-12' />
-        <h3 className='text-lg  pl-2 uppercase'>Scrumverse</h3>
+        <h3 className='text-lg pl-2 uppercase'>Scrumverse</h3>
       </div>
 
       {/* Navigation Bar */}
