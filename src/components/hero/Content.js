@@ -1,7 +1,7 @@
-import Button from './Button'
+import Button from '../Button'
 import Timer from './Timer'
 
-function Advertisement() {
+function Content() {
   return (
     <div className='flex flex-col flex-1 text-white items-start'>
       <h4 className='rounded-full bg-white opacity-90 px-5 py-1 mt-16 uppercase font-semibold text-[rgb(153,33,232)]'>
@@ -11,9 +11,11 @@ function Advertisement() {
         Unleash your SCRUM Skills,
         <br /> Grab more attention to résumé
       </h1>
-      <Button className='border-white border-inherit mt-5'>Enroll Now</Button>
+      <Button className='mt-5' border='white'>
+        Enroll Now
+      </Button>
       <Timer className='mt-20' />
     </div>
   )
 }
-export default Advertisement
+export default Content

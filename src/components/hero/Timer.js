@@ -2,7 +2,7 @@ import Countdown from 'react-countdown'
 
 function TimerDiv({ entity, entityName }) {
   return (
-    <div className='bg-[rgba(255,255,255,0.1)] w-28 h-32 text-7xl rounded-3xl font-semibold inline-block flex flex-col justify-center items-center'>
+    <div className='bg-[rgba(255,255,255,0.1)] w-28 h-32 text-7xl rounded-3xl font-semibold flex flex-col justify-center items-center'>
       <div>
         {entity.toLocaleString('en-US', {
           minimumIntegerDigits: 2,

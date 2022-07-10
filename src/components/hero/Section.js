@@ -1,16 +1,16 @@
-import Advertisement from './Advertisement'
+import Content from './Content'
 import Navbar from './Navbar'
 import PhotoGrid from './PhotoGrid'
 
-function MainSection() {
+function Section() {
   return (
     <div className='min-h-screen flex flex-col main-gradient'>
       <Navbar />
       <div className='container flex flex-1 relative'>
-        <Advertisement />
+        <Content />
         <PhotoGrid />
       </div>
     </div>
   )
 }
-export default MainSection
+export default Section

@@ -1,9 +1,9 @@
-import MainSection from '../components/home/MainSection'
+import Section from '../components/hero/Section'
 
 function Home() {
   return (
     <>
-      <MainSection />
+      <Section />
     </>
   )
 }

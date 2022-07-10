@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from '../Button'
 
 function Navbar() {
   return (
@@ -20,7 +20,7 @@ function Navbar() {
       {/* Sign In */}
       <div className='flex justify-center items-center gap-8'>
         <Button>Login</Button>
-        <Button className='border-inherit border-white'>Sign Up</Button>
+        <Button border='white'>Sign Up</Button>
       </div>
     </div>
   )
